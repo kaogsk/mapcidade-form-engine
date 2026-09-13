@@ -28,7 +28,7 @@ Submit the form, then visit `/forms/urban_tree/entries` to see it stored.
 
 ### Demo
 
-Screenshot/GIF of the form + entries list will be linked here.
+**Live:** https://mapcidade-form-engine.vercel.app/forms/urban_tree (deployed as a Vercel serverless function; submissions persist only within a warm instance — clone and run locally for durable storage).
 
 ### What I learned / engineering decisions
 
@@ -62,7 +62,7 @@ Envie o formulário, depois visite `/forms/urban_tree/entries` pra ver o registr
 
 ### Demo
 
-Screenshot/GIF do formulário + lista de entradas será linkado aqui.
+**Ao vivo:** https://mapcidade-form-engine.vercel.app/forms/urban_tree (deploy como função serverless da Vercel; envio só persiste dentro de uma instância "quente" — clone e rode local pra armazenamento durável).
 
 ### O que aprendi / decisões de engenharia
 
