@@ -1,0 +1,10 @@
+{
+  "id": "urban_tree",
+  "title": "Urban Tree Registration",
+  "fields": [
+    { "name": "species", "label": "Species", "type": "text", "required": true },
+    { "name": "height_m", "label": "Height (m)", "type": "number", "required": true },
+    { "name": "health", "label": "Health status", "type": "select", "required": true, "options": ["healthy", "declining", "dead"] },
+    { "name": "notes", "label": "Notes", "type": "textarea", "required": false }
+  ]
+}

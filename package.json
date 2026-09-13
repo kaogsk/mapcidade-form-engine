@@ -1,0 +1,30 @@
+{
+  "name": "mapcidade-form-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Web app that renders and validates a data-entry form purely from a JSON schema, and stores submissions in a local database.",
+  "engines": { "node": ">=22.5.0" },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "test": "vitest run",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "@types/supertest": "^6.0.2",
+    "eslint": "^9.39.0",
+    "supertest": "^7.0.0",
+    "typescript-eslint": "^8.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}
